@@ -2,6 +2,10 @@
 
 I use this project to help myself go through modern data engineering technologies, including GCP Storage, Compute Instance, Mage Data Pipeline Tool and BigQuery.
 
+You can have an overview of the pipeline below, and this note will guide you step by step understanding what this project is doing.
+
+<img src='./architecture.jpg'>
+
 <br>
 <hr>
 
