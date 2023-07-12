@@ -24,3 +24,20 @@ And this is the data dictionary that will help you understand these data: https:
 
 The original dataset contains many columns so it is a bit confusing when first look at it. Also, in practice, we don't need every columns when we want to analyse it. That's why I want to build a data model to help me get a high level understanding of these data cols and the relationship between them.
 <img src='./data_model.jpeg'>
+
+<br>
+<hr>
+
+## 3. Data Storage - Google Cloud Storage
+
+I use Google Cloud Storage to store the data online, and allow public access. So you can check the data using this link: https://storage.googleapis.com/uber-data-pipeline-jinze/uber_data.csv.
+
+<br>
+<hr>
+
+## 4. Mage VM Set Up
+
+I create a virtual machine instance using Google Compute Engine, install python environment as well as packages(pandas, mage, ...) on that. Then I run mage on that VM at port 6789, and allowed public access at that port, so
+you can access that VM instance using its IP address and port(http://34.125.81.68:6789/).
+
+<img src='mage_pipeline.png'>
